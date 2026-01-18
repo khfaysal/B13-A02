@@ -62,18 +62,16 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 550px;
+  height: 530px;
   align-items: center;
-  border: 0.1px solid red;
+  /* border: 0.1px solid red; */
 }
 .banner .imgWrap {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   margin: 0 auto;
-  /* margin-left: 200px; */
-  /* padding-left: 600px; */
-  margin-top: 80px;
+  padding-top: 70px;
 }
 .banner .imgWrap .circle {
   width: 100%;
@@ -84,12 +82,12 @@
   transform: translate(-50%, -50%);
   width: 60px;
   z-index: 2;
-  top: 130px;
-  left: 126px;
+  top: 190px;
+  left: 109px;
 }
 .bannercontent {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 99px;
   font-family: "Segoe UI";
   color: white;
 }
