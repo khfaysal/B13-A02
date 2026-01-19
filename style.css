@@ -185,7 +185,91 @@
   /* border: 1px solid red; */
   margin-top: -2px;
 }
+/* ...............why............... */
+.why {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: auto;
+  padding: 5rem 7rem;
+  background: #25082b;
+}
+.why h4 {
+  font-family: "Segoe UI";
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 2.3rem;
+  /* margin-bottom: 2rem; */
+}
+.why .card {
+  /* border: 3px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 1rem;
+  padding: 3rem;
+}
+.why .card .box1 {
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  background: #3e1551;
+  align-items: center;
+  text-align: left;
+  padding: 1rem;
+  grid-column: span 1;
+  grid-row: span 2;
+  border-radius: 25px;
+}
+.why .card .box2 {
+  /* border: 2px solid red; */
+  background: #3e1551;
+  text-align: left;
+  padding: 1rem;
+  grid-column: span 2;
+  grid-row: span 1;
+  border-radius: 25px;
+}
+.why .card .box3 {
+  /* border: 2px solid red; */
+  background: #3e1551;
+  text-align: left;
+  padding: 1rem;
+  grid-column: span 2;
+  grid-row: span 1;
+  border-radius: 25px;
+}
+.why .card .box4 {
+  /* border: 2px solid red; */
+  background: #3e1551;
+  text-align: left;
+  padding: 1rem;
+  grid-column: span 2;
+  grid-row: span 1;
+  border-radius: 25px;
+}
+.why .card .box5 {
+  /* border: 2px solid red; */
+  background: #3e1551;
+  text-align: left;
+  padding: 1rem;
+  grid-column: span 1;
+  grid-row: span 1;
+  border-radius: 25px;
+}
 
+.why .card h4 {
+  color: white;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.why .card p {
+  text-align: left;
+  color: rgb(214, 214, 214);
+  font-size: 0.9rem;
+}
+/* Responsive Styles */
 @media screen and (max-width: 568px) {
   .about .rating {
     grid-template-columns: repeat(2, 1fr);
@@ -193,5 +277,16 @@
     align-items: center;
     margin: 0 auto;
     padding: 3rem;
+  }
+  .why {
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+  }
+  .why .card {
+    width: 100%;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
   }
 }
