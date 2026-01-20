@@ -269,27 +269,6 @@
   color: rgb(214, 214, 214);
   font-size: 0.9rem;
 }
-/* Responsive Styles */
-@media screen and (max-width: 576px) {
-  .about .rating {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 75px);
-    align-items: center;
-    margin: 0 auto;
-    padding: 3rem;
-  }
-  .why {
-    width: 100%;
-    padding: 2rem;
-    align-items: center;
-  }
-  .why .card {
-    width: 100%;
-    align-items: center;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, auto);
-  }
-}
 
 /* ...................footer................... */
 .foot {
@@ -368,4 +347,86 @@
   align-items: center;
   text-align: center;
   margin-top: 1.5rem;
+}
+
+/* ............End............. */
+
+.feature {
+  border: 2px solid red;
+  background: #20082b;
+}
+
+.feature h2 {
+  font-family: "Segoe UI";
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+}
+
+.feature .hostbox {
+  border: 2px solid blue;
+  width: 100%;
+  display: flex;
+  gap: 2.2rem;
+}
+.feature .hostbox img {
+  /* border: 2px solid green; */
+  align-items: center;
+  margin: 0 auto;
+}
+.hostbox h3 {
+  font-family: "Segoe UI";
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  align-items: left;
+  text-align: left;
+  padding: auto;
+  /* border: 2px solid red; */
+}
+.hostbox p {
+  font-family: "Segoe UI";
+  color: rgb(226, 213, 213);
+  font-size: 1.1rem;
+  font-weight: 400;
+  align-items: left;
+  text-align: left;
+  grid-column: span 4;
+  grid-row: span 2;
+  padding: auto;
+  margin-bottom: 1.5rem;
+}
+
+.hostbox .hostlink {
+  display: flex;
+  gap: 2rem;
+}
+/* Responsive Styles */
+@media screen and (max-width: 576px) {
+  .about .rating {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 75px);
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+  .why {
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+  }
+  .why .card {
+    width: 100%;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+  }
+
+  .feature .hostbox {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
