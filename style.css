@@ -352,8 +352,9 @@
 /* ............End............. */
 
 .feature {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background: #20082b;
+  width: 100%;
 }
 
 .feature h2 {
@@ -366,10 +367,13 @@
 }
 
 .feature .hostbox {
-  border: 2px solid blue;
-  width: 100%;
+  background: #330d44;
+  border-radius: 25px;
+  width: 84%;
+  margin: 0 auto;
   display: flex;
   gap: 2.2rem;
+  padding: 2rem;
 }
 .feature .hostbox img {
   /* border: 2px solid green; */
