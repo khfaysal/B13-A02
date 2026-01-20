@@ -66,6 +66,12 @@
   align-items: center;
   /* border: 0.1px solid red; */
 }
+
+.bannerbtn img {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
 .banner .imgWrap {
   position: relative;
   width: 220px;
@@ -406,6 +412,22 @@
 .hostbox .hostlink {
   display: flex;
   gap: 2.1rem;
+}
+
+.feature .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.feature .box .cardd {
+  border: 2px solid red;
+  width: 250px;
+  height: 150px;
+}
+.feature .box .crdimg {
+  background-image: url(/assets/);
 }
 /* Responsive Styles */
 @media screen and (max-width: 576px) {
